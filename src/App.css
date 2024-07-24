@@ -1,0 +1,123 @@
+/* App.css */
+
+.App {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #ADD5FF;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.typingParagraph {
+  width: 60%;
+  max-width: 640px;
+  margin-bottom: 20px;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #ddd; 
+  border-radius: 6px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.inputTimerRefresh {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  max-width: 640px;
+  justify-content:center ;
+  background-color: #ddd;
+  padding: 12px;
+  border: 1px solid #0056b3;
+}
+
+.inputTimerRefresh input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.inputTimerRefresh p {
+  margin: 0 10px;
+  font-size: 18px;
+  color: #333;
+  white-space: nowrap;
+}
+
+.retryButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.retryButton:hover {
+  background-color: #0056b3;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.current {
+  background-color: lightgray;
+}
+
+.stats {
+  width: 320px;
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #adadad;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  flex-direction: column;
+  font-weight: lighter;
+}
+
+.title {
+  background-color: #0056b3;
+  font-size: 18px;
+  margin: 0;
+  border-radius: 8px 8px 0 0; 
+  color: white; 
+}
+
+.wpm, .accuracy, .correctWords, .incorrectWords {
+  font-size: 24px; 
+  margin: 0;
+  padding: 10px;
+}
+
+.wpm {
+  background-color: #d2d2d2;
+}
+
+.accuracy {
+  background-color: #efefef;
+}
+
+.correctWords {
+  background-color: #d2d2d2;
+}
+
+.incorrectWords {
+  background-color: #efefef;
+}
