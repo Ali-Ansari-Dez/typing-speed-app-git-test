@@ -1,3 +1,6 @@
+this is just a test upload for me to figure out git, kinda. so don't read too much into it
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
